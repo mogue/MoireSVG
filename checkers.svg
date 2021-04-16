@@ -1,0 +1,17 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <pattern id="Pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="10" height="10" fill="black"/>
+            <rect x="10" y="10" width="10" height="10" fill="black"/>
+        </pattern>
+    </defs>
+
+    <rect fill="url(#Pattern)" width="400" height="400" />
+    <circle fill="url(#Pattern)" cx="200" cy="200" r="400" transform-origin="center">
+        <animateTransform dur="10s" repeatCount="indefinite"
+            attributeName="transform"
+            type="rotate"
+            from="0"
+            to="180" />
+    </circle>
+</svg>

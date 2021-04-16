@@ -1,0 +1,19 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <pattern id="PatternA" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="10" height="5" fill="black"/>
+        </pattern>
+        <pattern id="PatternB" x="0" y="0" width="10" height="9" patternUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="10" height="5" fill="black"/>
+        </pattern>
+    </defs>
+
+    <rect fill="url(#PatternA)" width="400" height="400" />
+    <rect fill="url(#PatternB)" width="400" height="400" >
+        <animateTransform dur="2s" repeatCount="indefinite"
+            attributeName="transform"
+            type="translate"
+            from="0 0"
+            to="0 9" />
+    </rect>
+</svg>

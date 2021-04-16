@@ -1,0 +1,18 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <pattern id="PatternA" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="10" height="5" fill="black"/>
+        </pattern>
+        <pattern id="PatternB" x="0" y="0" width="10" height="9" patternUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="10" height="5" fill="black"/>
+        </pattern>
+    </defs>
+
+    <rect fill="url(#PatternA)" width="600" height="600" transform="translate(-100 -100) skewY(-10)" />
+    <rect fill="url(#PatternB)" width="600" height="600" transform="translate(-100 -100)">
+        <animateTransform dur="5s" repeatCount="indefinite"
+            attributeName="transform"
+            type="skewY"
+            values="-5 ; -15 ; -5" />
+    </rect>
+</svg>
