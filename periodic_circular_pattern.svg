@@ -1,0 +1,16 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+    <defs></defs>
+    <circle fill="none" cx="200" cy="200" r="100" id="DashA"
+        stroke="black" stroke-width="200" 
+        stroke-dasharray="6.283 6.283"/>
+    <circle fill="none" cx="200" cy="200" r="100" id="DashB"
+        stroke="black" stroke-width="200"
+        stroke-dasharray="7.14 7.14"
+        transform-origin="center" >
+        <animateTransform dur="30s" repeatCount="indefinite"
+            attributeName="transform"
+            type="rotate"
+            from="0"
+            to="360" />
+    </circle>
+</svg>

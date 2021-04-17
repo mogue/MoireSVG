@@ -1,0 +1,47 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+    <defs />
+    <g id="Concentric" fill="none" stroke="black" stroke-width="4" >
+    <!--
+        <animateTransform dur="20s" repeatCount="indefinite"
+            attributeName="transform"
+            type="translate"
+            values="0 0 ; -50 0 ; 0 0" />
+            -->
+        <ellipse cx="200" cy="200" rx="10"  ry="10" />
+        <ellipse cx="200" cy="200" rx="20"  ry="20" />
+        <ellipse cx="200" cy="200" rx="30"  ry="30" />
+        <ellipse cx="200" cy="200" rx="40"  ry="40" />
+        <ellipse cx="200" cy="200" rx="50"  ry="50" />
+        <ellipse cx="200" cy="200" rx="60"  ry="60" />
+        <ellipse cx="200" cy="200" rx="70"  ry="70" />
+        <ellipse cx="200" cy="200" rx="80"  ry="80" />
+        <ellipse cx="200" cy="200" rx="90"  ry="90" />
+        <ellipse cx="200" cy="200" rx="100" ry="100" />
+        <ellipse cx="200" cy="200" rx="110" ry="110" />
+        <ellipse cx="200" cy="200" rx="120" ry="120" />
+        <ellipse cx="200" cy="200" rx="130" ry="130" />
+        <ellipse cx="200" cy="200" rx="140" ry="140" />
+        <ellipse cx="200" cy="200" rx="150" ry="150" />
+        <ellipse cx="200" cy="200" rx="160" ry="160" />
+        <ellipse cx="200" cy="200" rx="170" ry="170" />
+        <ellipse cx="200" cy="200" rx="180" ry="180" />
+        <ellipse cx="200" cy="200" rx="190" ry="190" />
+        <ellipse cx="200" cy="200" rx="200" ry="200" />
+        <ellipse cx="200" cy="200" rx="210" ry="210" />
+        <ellipse cx="200" cy="200" rx="220" ry="220" />
+        <ellipse cx="200" cy="200" rx="230" ry="230" />
+        <ellipse cx="200" cy="200" rx="240" ry="240" />
+        <ellipse cx="200" cy="200" rx="250" ry="250" />
+        <ellipse cx="200" cy="200" rx="260" ry="260" />
+        <ellipse cx="200" cy="200" rx="270" ry="270" />
+        <ellipse cx="200" cy="200" rx="280" ry="280" />
+        <ellipse cx="200" cy="200" rx="290" ry="290" />
+    </g>
+
+    <use href="#Concentric" transform-origin="center">
+        <animateTransform dur="20s" repeatCount="indefinite"
+            attributeName="transform"
+            type="scale"
+            values="1 1 ; 1 0.8 ; 0.8 1 ; 1.2 0.8 ; 1 1" />
+    </use>
+</svg>

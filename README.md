@@ -11,10 +11,6 @@ Moiré patterns in SVG are interesting for a number of reasons:
 
 Moiré patterns are illusionary effects through interference patterns. So they can be hard to conceptualize, tricky to use and have artifacts or side-effects. Hope you enjoy the examples and get a better feeling for the effect.
 
-# Concentric Circles
-
-![Concentric Circles](./concentric_circles.svg)
-
 # Parallel Lines
 
 ![Parallel Lines](./parallel_line_moire.svg)
@@ -23,9 +19,21 @@ Moiré patterns are illusionary effects through interference patterns. So they c
 
 ![Parallel Lines Inclination](./parallel_line_moire_inclination.svg)
 
+# Periodic Circular Pattern
+
+![Periodic Circular Patter](.(periodic_circular_pattern.svg)
+
+# Concentric Circles
+
+![Concentric Circles](./overlapping_concentric_circles.svg)
+
+# Concentric Ellipse
+
+![Concentric Ellipse](./overlapping_concentric_ellipse.svg)
+
 # Checker Pattern
 
-![Checker Pattern](./parallel_line_moire_inclination.svg)
+![Checker Pattern](./checkers.svg)
 
 # Grid Pattern
 
