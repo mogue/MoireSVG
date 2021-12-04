@@ -1,0 +1,19 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+    <defs></defs>
+    <circle fill="none" cx="200" cy="210" r="80" id="DashA"
+        stroke="black" stroke-width="160" 
+        stroke-dasharray="6.283 6.283">
+        <animateTransform dur="60s" repeatCount="indefinite"
+            attributeName="transform"
+            type="rotate"
+            from="0 200 210" to="360 200 210" />
+    </circle>
+    <circle fill="none" cx="200" cy="190" r="80" id="DashB"
+        stroke="black" stroke-width="160"
+        stroke-dasharray="6.283 6.283">
+        <animateTransform dur="60s" repeatCount="indefinite"
+            attributeName="transform"
+            type="rotate"
+            from="360 200 190" to="0 200 190" />
+    </circle>
+</svg>
