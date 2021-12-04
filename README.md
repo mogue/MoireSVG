@@ -25,7 +25,7 @@ Moiré patterns are illusionary effects through interference patterns. So they c
 
 # Periodic Circular Pattern Displacement
 
-![Periodic Circular Pattern Displacement](./periodic_circular_pattern_displacement.svg)
+![Periodic Circular Pattern Displacement](./periodic_circular_displaced_rotation.svg)
 
 # Concentric Circles
 
